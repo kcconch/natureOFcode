@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "walker.h"
 
 class ofApp : public ofBaseApp{
 
@@ -19,9 +20,5 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
 
-    ofVec2f location;
-    ofVec2f velocity;
-	ofVec2f mouseLoc;
-	ofVec2f direction;
-	float distance;
+    walker w;
 };

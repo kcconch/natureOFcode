@@ -1,4 +1,10 @@
-# don't push project files
+
+## openFrameworks gitignore  ##
+## that skips project files  ##
+## for xcode & visual studio ##
+
+## FILETYPES ##
+###############
 *.cbp
 *.sln
 *.vcx*
@@ -6,9 +12,15 @@
 config.make
 Makefile
 *.xcodeproj
+*.vcxproj
 *.plist
 *.xcconfig
 *.suo
+
+*.opensdf
+*.sdf
+*.suo
+*.ipch
 
 *.depend
 *.layout
@@ -16,15 +28,14 @@ Makefile
 *.pbxuser
 *.app*
 *.DS_*
+*.rc
 *.xcworkspacedata
 xcuserdata/
 project.xcworkspace
 
-*.opensdf
-*.sdf
-*.suo
-*.ipch
-
+## FOLDERS ##
+#############
+.vs/
 .svn/
 obj/
 bin/

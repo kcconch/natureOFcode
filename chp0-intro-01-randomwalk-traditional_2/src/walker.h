@@ -13,5 +13,8 @@ public:
     int x;
     int y;
     int scale;
+
+	ofVec2f oldPosition;
+	ofVec2f newPosition;
 };
 
